@@ -37,7 +37,6 @@ public class Words {
 
     public boolean isThereAWordTwice() {
         int count = 0;
-        boolean endResult=false;
         List<String> result = words;
         for (int i = 0; i < result.size(); i++) {
             String word = result.get(i);
