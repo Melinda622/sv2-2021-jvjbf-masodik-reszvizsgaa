@@ -33,7 +33,7 @@ class WordsTest {
         words.addWord("apple");
         words.addWord("plum");
 
-        //assertTrue(words.isThereAWordTwice());
+        assertTrue(words.isThereAWordTwice());
     }
 
     @Test
